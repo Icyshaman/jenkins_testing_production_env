@@ -18,7 +18,7 @@
   <br><br>
   ![](Images/9.jpg)
 
-* configure jenkins job2
+* Configure jenkins job2
 
   ![](Images/16.jpg)
 

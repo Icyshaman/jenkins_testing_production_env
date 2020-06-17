@@ -5,18 +5,17 @@
 * github account
 * httpd docker image
 * jenkins
-
+***
 >**How to use**:
-* clone the repository
-
-* configure git hooks
+* Clone github repository.
+* Configure git hooks.
 
   ![](Images/2.jpg)
 
-* configure jenkins job1
+* Configure jenkins job1
 
   ![](Images/8.jpg)
-
+  <br><br>
   ![](Images/9.jpg)
 
 * configure jenkins job2
@@ -25,38 +24,39 @@
 
   ![](Images/17.jpg)
 
-* add a file to master branch of local git repository.
+* Add file to master branch of local git repository.
 
   ![](Images/1.jpg)
 
-* add the file to staging area and then move the files to commit area as we configured git hook when we commit it directly pushed to the github master branch.
+* Add file to staging area and then move the files to commit area, as we configured git hook, when we commit, repo will directly pushed to the github master branch.
 
   ![](Images/3.jpg)
-
+  <br><br>
   ![](Images/4.jpg)
 
-* since our jenkin job is configured it will automatically copy the file to production environment and start the docker container.
+* Since our jenkin job1 is configured, it will automatically copy the file to production environment and start docker container for production purpose.
 
   ![](Images/5.jpg)
-
+  <br><br>
   ![](Images/6.jpg)
-
+  <br><br>
   ![](Images/7.jpg)
   
-* add a file to dev1 branch of local git repository.
+* Add file to dev1 branch of local git repository.
 
   ![](Images/10.jpg)
   
-* add the file to staging area and then move the file to commit area as we configured git hook when we commit it directly pushed to the github dev1 branch.
+* Add file to staging area and then move file to commit area, as we configured git hook, when we commit, repo will directly pushed to the github dev1 branch.
 
   ![](Images/11.jpg)
-  
+  <br><br>
   ![](Images/12.jpg)
   
-* since our jenkin job is configured it will automatically copy the file to testing environment and start the docker container.
+* Since our jenkin job2 is configured, it will automatically copy the file to testing environment and start docker container for testing purpose.
 
   ![](Images/13.jpg)
-
+  <br><br>
   ![](Images/14.jpg)
-
+  <br><br>
   ![](Images/15.jpg)
+***

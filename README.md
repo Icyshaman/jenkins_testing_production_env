@@ -10,7 +10,7 @@
 
 * jenkins
 <br><br>
->**How to use**:
+>**How to set up**:
 * Clone github repository.
 <br><br>
 * Configure git hooks.

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if git push
+then
+curl --user "<user_name>:<password>" <URL to trigger jenkins job1 remotely> 
+else
+git push origin dev1
+curl --user "<user_name>:<password>" <URL to trigger jenkins job2 remotely>
+fi

@@ -1,0 +1,8 @@
+sudo cp -v -r -f * /test
+
+if sudo docker ps | grep testenv
+then
+echo ""
+else
+sudo docker run -d -i -t -p 8083:80 -v /test:/usr/local/apache2/htdocs/ --name testenv httpd:latest
+fi

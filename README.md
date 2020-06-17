@@ -6,7 +6,7 @@
 * httpd docker image
 * jenkins
 ***
->**How to set up**
+>**How to set up**:
 * Clone github repository.
 * Configure git hooks.
 
